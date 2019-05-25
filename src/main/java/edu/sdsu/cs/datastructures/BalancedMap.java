@@ -6,7 +6,7 @@ import java.util.TreeMap;
 import java.util.Map;
 
 public class BalancedMap<K extends Comparable<K>, V> implements IMap<K, V> {
-    //Awale Ahmed, Said Mohamed
+    //Awale Ahmed
     TreeMap<K, V> map = new TreeMap<K, V>();
 
     public BalancedMap() {
